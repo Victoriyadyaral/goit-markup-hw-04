@@ -216,6 +216,7 @@ overflow: hidden;
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
+    flex-b
 }
 
 
@@ -454,10 +455,10 @@ overflow: hidden;
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--footer-background-color);
-    display: flex;
 }
 .our-contact {
     display: flex;
+    justify-content: baseline;
 }
 
 .no-padding {
