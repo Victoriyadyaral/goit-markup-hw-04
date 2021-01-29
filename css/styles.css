@@ -67,7 +67,7 @@ img {
 /* body */
 
 body {
-    background-color: var(--main-background-color);
+    background-color: var(--primary-white-color);
     color: var(--primary-text-color);
     font-family: var(--primary-font);
     font-size: 14px;
@@ -544,6 +544,10 @@ overflow: hidden;
 
 .header.portfolio {
     border-bottom: 1px solid #ECECEC;
+}
+
+.portfolio-section{
+    background-color: var(--main-background-color); 
 }
 
 /*filters*/
